@@ -1,0 +1,46 @@
+
+input {
+    padding: 10px;
+    height: 20px;
+    width: 500px;
+    border: 1px solid purple;
+    margin: 10px;
+    font-size: 22px;
+  }
+  
+  .pos-rel {
+    position: relative;
+  }
+  
+  .autoContainer {
+    position: absolute;
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: goldenrod;
+    background-color: whitesmoke;
+    right: 10px;
+    top: 52px;
+    width: 520px;
+  }
+  
+  .option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    padding: 5px;
+  }
+  
+  .option,
+  span {
+    color: black;
+    font-size: 22px;
+  }
+  
+  .flex-container {
+    display: flex;
+  }
+  
+  .flex-column {
+    flex-direction: column;
+  }
